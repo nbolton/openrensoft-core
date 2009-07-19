@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{415C9D8E-48DD-460E-AC93-509226944BE3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rensoft.Windows.Forms</RootNamespace>
+    <AssemblyName>Rensoft.Windows.Forms</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Rensoft, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rensoft.Hosting\Rensoft.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\RsCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAction\DataActionAfterEventArgs.cs" />
+    <Compile Include="DataAction\DataActionAfterEventHandler.cs" />
+    <Compile Include="DataAction\DataActionArgs.cs" />
+    <Compile Include="DataAction\DataActionBeforeEventArgs.cs" />
+    <Compile Include="DataAction\DataActionBeforeEventHandler.cs" />
+    <Compile Include="DataAction\DataActionEventArgs.cs" />
+    <Compile Include="DataAction\DataActionEventHandler.cs" />
+    <Compile Include="DataAction\DataActionResult.cs" />
+    <Compile Include="DataAction\DataActionStatusState.cs" />
+    <Compile Include="DataEditing\DataEditorAction.cs" />
+    <Compile Include="DataEditing\DataEditorActionArgs.cs" />
+    <Compile Include="DataEditing\DataEditorActionResult.cs" />
+    <Compile Include="DataEditing\DataEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataEditing\DataEditorControl.Designer.cs">
+      <DependentUpon>DataEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditing\DataEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditing\DataEditorForm.Designer.cs">
+      <DependentUpon>DataEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditing\DataEditorMode.cs" />
+    <Compile Include="DataEditing\DataEditorReflectEventArgs.cs" />
+    <Compile Include="DataEditing\DataEditorReflectEventHandler.cs" />
+    <Compile Include="DataViewing\DataViewerAction.cs" />
+    <Compile Include="DataViewing\DataViewerActionArgs.cs" />
+    <Compile Include="DataViewing\DataViewerActionResult.cs" />
+    <Compile Include="DataViewing\DataViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataViewing\DataViewerControl.Designer.cs">
+      <DependentUpon>DataViewerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataViewing\DataViewerOpenArgs.cs" />
+    <Compile Include="DataViewing\StatusChangeEventArgs.cs" />
+    <Compile Include="DataViewing\StatusChangeEventHandler.cs" />
+    <Compile Include="DataViewing\StatusRevertEventArgs.cs" />
+    <Compile Include="DataViewing\StatusRevertEventHandler.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\WizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardForm.Designer.cs">
+      <DependentUpon>WizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\WizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardPage.Designer.cs">
+      <DependentUpon>WizardPage.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataEditing\DataEditorControl.resx">
+      <DependentUpon>DataEditorControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditing\DataEditorForm.resx">
+      <DependentUpon>DataEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataViewing\DataViewerControl.resx">
+      <DependentUpon>DataViewerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\WizardForm.resx">
+      <DependentUpon>WizardForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\WizardPage.resx">
+      <DependentUpon>WizardPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RensoftLogoStrip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Control.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cut.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hyperlink.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Preview.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveClose.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveNew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Rensoft.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
