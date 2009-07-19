@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Rensoft.Server.DNS.DnsARecord">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DNS\DnsARecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.DNS.DnsCnameRecord">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DNS\DnsCnameRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.DNS.DnsManager">
+    <Position X="9.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAAAAAAAAAACCAAAAAAACAAAAADAAAAAAEEEA=</HashCode>
+      <FileName>DNS\DnsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.DNS.DnsMxRecord">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DNS\DnsMxRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.DNS.DnsNsRecord">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DNS\DnsNsRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.DNS.DnsRecord">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAASAAAAAAAAAABAAAAQQAAAEACAEAAAgAAAAAAQ=</HashCode>
+      <FileName>DNS\DnsRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.DNS.DnsSoaRecord">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAQAAAAEAAAAAAAACAAAAAgAFBAIAAAQAgAAAAAAA=</HashCode>
+      <FileName>DNS\DnsSoaRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.DNS.DnsZone" Collapsed="true">
+    <Position X="18.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAAJAAAAGAAAAABAQAAgQFAAIAAQAAAAACAAA=</HashCode>
+      <FileName>DNS\DnsZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.Security.WindowsUserManager">
+    <Position X="6.75" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAEgAAA=</HashCode>
+      <FileName>Security\WindowsUserManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.Security.WindowsUser" Collapsed="true">
+    <Position X="18.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABEAAAAAgAIQAIQCEAAEAAAAAAAACAAAAAgAAAAQ=</HashCode>
+      <FileName>Security\WindowsUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.Security.WindowsUserGroup" Collapsed="true">
+    <Position X="20.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\WindowsUserGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.FileSystem.FileSystemDirectory" Collapsed="true">
+    <Position X="20.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAIAAABCAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>FileSystem\FileSystemDirectory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.FileSystem.FileSystemManager" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAEAAAAQAAAAAAAAAAAAAEQA=</HashCode>
+      <FileName>FileSystem\FileSystemManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.IIS.ApplicationPool" Collapsed="true">
+    <Position X="17" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAEAAAIAAAACAAAAQA=</HashCode>
+      <FileName>IIS\ApplicationPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.IIS.ApplicationPoolManager">
+    <Position X="11.5" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAEAAAA=</HashCode>
+      <FileName>IIS\ApplicationPoolManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.IIS.VirtualServer" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQADIAEgAggAAYAIgACBAIAAAAACABAAEgAQABABAA=</HashCode>
+      <FileName>IIS\VirtualServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.IIS.VirtualServerBinding" Collapsed="true">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAACAEAAAAAEKAAABAgAAAAgAAAAAAA=</HashCode>
+      <FileName>IIS\VirtualServerBinding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.IIS.VirtualServerManager">
+    <Position X="14.25" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAIAAAAAAABAAAAAAABACAAAAAAEAAAAAAAgAAEAA=</HashCode>
+      <FileName>IIS\VirtualServerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.IIS.VirtualServerPath" Collapsed="true">
+    <Position X="17" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAAAAAEAAIAAAAAgAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>IIS\VirtualServerPath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rensoft.Server.ServerManager">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAkAAAABAAAAAAAA=</HashCode>
+      <FileName>ServerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Rensoft.Server.Security.WindowsUserFlag" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\WindowsUser.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Rensoft.Server.IIS.ApplicationPoolIdentityType" Collapsed="true">
+    <Position X="17" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAgA=</HashCode>
+      <FileName>IIS\ApplicationPool.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Rensoft.Server.IIS.VirtualServerAuthFlag" Collapsed="true">
+    <Position X="20.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAABAAAAAAAAAAAAABAAAAACGAAAA=</HashCode>
+      <FileName>IIS\VirtualServer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Rensoft.Server.IIS.VirtualServerAccessFlag" Collapsed="true">
+    <Position X="18.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgQAAAAAAAAhIAAAAAAAAQAAAEAAAAAAAAAAAI=</HashCode>
+      <FileName>IIS\VirtualServer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
